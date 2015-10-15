@@ -7,6 +7,6 @@ Leave url blank to submit a question for discussion. The Title text will appear 
 <br>
 <%= f.input :url, as: :url, label: false, placeholder: "Website URL" %>
 <%= f.input :content, as: :text, label: false, placeholder: "Post Description" %>
-
-  <%= f.button :submit %>
+<%= f.input :twitter, as: :text, label: false, placeholder: "Twitter Username" %>
+<%= f.button :submit %>
 <% end %>
