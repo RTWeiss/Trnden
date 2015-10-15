@@ -5,7 +5,7 @@ module ApplicationHelper
   end
 
   def seo_title_text
-      ENV["SEO_TITLE"] || "Discover Trending Startups | "
+      ENV["SEO_TITLE"] || "Discover Trending Startups"
   end
 
   def link_to_list_item(name, link, options={})
