@@ -89,20 +89,19 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+    
 }
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
-
-}
-.navbar>.container-fluid .navbar-brand {
-    margin-left: -15px;
     margin-top: -10px;
+
 }
 
 .navbar-header .navbar-brand {
 	color: white;
+    margin-top: -10px;
 }
 
 .navbar-default .navbar-nav > li > a {
