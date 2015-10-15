@@ -1,5 +1,4 @@
 module ApplicationHelper
-  include Twitter::Autolink
 
   def site_title_text
       ENV["SITE_TITLE"] || "Trnden"
