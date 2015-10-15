@@ -1,11 +1,11 @@
 module ApplicationHelper
 
   def site_title_text
-      ENV["SITE_TITLE"] || "Discover Trending Startups |"
+      ENV["SITE_TITLE"] || "Trnden"
   end
 
   def seo_title_text
-      ENV["SEO_TITLE"] || "Trnden"
+      ENV["SEO_TITLE"] || "Discover Trending Startups |"
   end
 
   def link_to_list_item(name, link, options={})

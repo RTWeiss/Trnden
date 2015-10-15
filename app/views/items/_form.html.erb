@@ -3,11 +3,11 @@
 
   <%= f.input :title %>
 <br>
-Leave url blank to submit a question for discussion. If there is no url, the text (if any) will appear at the top of the thread.
+Leave url blank to submit a question for discussion. The Title text will appear at the top of the thread.
 <br>
-  <%= f.input :url, as: :url, label: false, placeholder: "URL" %>
+<%= f.input :url, as: :url, label: false, placeholder: "Website URL" %>
   <div>or</div>
-  <%= f.input :content, as: :text, label: false, placeholder: "Markdown Description" %>
+  <%= f.input :content, as: :text, label: false, placeholder: "Post Description" %>
   <div>
 </div>
 
