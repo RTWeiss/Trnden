@@ -13,6 +13,23 @@
       </div>
     </div>
   </div>
+<div id="headerwrap">
+    <div class="container alert alert-dismissable">
+      <div class="row">
+        
+          <% @user ||= User.new %>
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <div class="form-group">
+                <div class="row">
+                  <%= link_to 'SUBMIT', "javascript:void(0)", class: 'btn btn-theme btn-lg btn-block', data: {toggle: 'collapse', target: '#root-submit'} %>
+                </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--maybe show some messages? or popular posts. some other call to action.-->
 <% else %>
