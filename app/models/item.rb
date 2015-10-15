@@ -15,7 +15,6 @@ class Item < ActiveRecord::Base
     end
   end
   validates :url, url: {allow_nil: true, allow_blank: true}
-    validates :twitter, :twitter: {allow_nil: true, allow_blank: true}
 
 
   scope :active, -> { where(disabled: false) }
