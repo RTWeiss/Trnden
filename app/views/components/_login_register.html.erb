@@ -8,18 +8,7 @@
 
           <h1>Discover & Discuss Trending Startups</h1>
             <h5>We are still in beta | Send feedback to Richard@Trnden.com</h5>
-            <%= simple_form_for(@item) do |f| %>
-  <%= f.error_notification %>
 
-  <%= f.input :title %>
-<br>
-Leave url blank to submit a question for discussion. The Title text will appear at the top of the thread.
-<br>
-<%= f.input :url, as: :url, label: false, placeholder: "Website URL" %>
-<div>or</div>
-<%= f.input :content, as: :text, label: false, placeholder: "Post Description" %>
-<%= f.button :submit %>
-<% end %>
         </div>
       </div>
     </div>
