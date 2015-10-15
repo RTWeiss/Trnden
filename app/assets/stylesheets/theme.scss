@@ -96,6 +96,10 @@ a:focus {
 	font-weight: 900;
 
 }
+.navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: -10px;
+}
 
 .navbar-header .navbar-brand {
 	color: white;
