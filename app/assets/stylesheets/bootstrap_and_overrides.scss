@@ -1,2 +1,5 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.navbar>.container .navbar-brand{
+margin-top: -10px;
+}
