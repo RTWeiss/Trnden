@@ -25,7 +25,12 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
-
+.btn    {
+    border-radius: 55px;
+}
+.form{
+    border-radius: 55px;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -137,6 +142,7 @@ a:focus {
   color: #fff;
   background-color: #384452;
   border-color: #384452;
+    border-radius: 55px;
 
   &:hover {
     color: #fff;
@@ -151,6 +157,7 @@ a:focus {
 	color: #ffffff;
 	background-color: #222222;
 	border-color: #ffffff;
+    
 }
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
