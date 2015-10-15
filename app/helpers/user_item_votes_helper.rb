@@ -1,6 +1,6 @@
 module UserItemVotesHelper
   def link_to_upvote(object)
-      link_to 'Uptrend', vote_item_path(object), method: :post, class: 'text-danger'
+      link_to image_tag("uparrow.png"), vote_item_path(object), method: :post, class: 'text-danger'
   end
 
   def link_to_downvote(object)
