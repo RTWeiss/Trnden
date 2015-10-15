@@ -90,7 +90,7 @@ a:focus {
     margin-right: auto;
     border-radius: 55px;
 }
-.btn .btn-default .btn-block{
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
