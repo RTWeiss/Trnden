@@ -84,6 +84,18 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+.form-control{    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 55px;
+}
+.btn-block {
+    /* width: 90%; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .navbar {
 	min-height: 70px;
