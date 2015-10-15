@@ -85,13 +85,13 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .form-control{    
-    width: 90%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 55px;
 }
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
-    width: 90%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
