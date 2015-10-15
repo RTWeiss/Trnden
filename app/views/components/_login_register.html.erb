@@ -10,6 +10,11 @@
             <h5>We are still in beta | Send feedback to Richard@Trnden.com</h5>
         
         </div>
+          <% @item ||= item.new %>
+          <h1>Submit URL or markdown content</h1>
+
+          <%= render 'form' %>
+          
       </div>
     </div>
   </div>
