@@ -10,6 +10,11 @@
       </button>
         <%= link_to image_tag('Trndensmall.png'), root_path, class: 'navbar-brand' %>
     </div>
+      <div><%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %></div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <%= link_to_list_item("TOP", items_path) %>
