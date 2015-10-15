@@ -7,7 +7,10 @@
   </div>
   <div class="media-body">
     <h4 class="media-heading">
-        <% if item.title.present? %>
+      <% if item.url.present? %>
+        <%= link_to item.title, item.url, title: item.url, target: '_blank' %>
+        <small>(<%= URI.parse(item.url).host %>)</small>
+      <% else %>
         <%= link_to item.title, item, title: truncate(item.content, length: 30) %>
         <small><%= link_to '[discussion]', item %></small>
       <% end %>
