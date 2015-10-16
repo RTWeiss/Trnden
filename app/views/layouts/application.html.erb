@@ -13,9 +13,9 @@
 <div id="service">
   <div class="container">
     <%= yield %>
-      <%= render 'components/flash' %>
   </div>
 </div>
+<%= render 'components/flash' %>
 <%= render 'components/google_analytics' %>
 <%= yield :javascripts %>
 </body>
