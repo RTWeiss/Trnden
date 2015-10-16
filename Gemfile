@@ -11,6 +11,8 @@ gem 'sorcery', '0.9.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'validate_url'
+gem 'twitter', '~> 5.3.1'
+gem 'omniauth-twitter', '~> 1.0.1'
 
 # This allows us to import bower packages
 source 'https://rails-assets.org' do
