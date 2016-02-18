@@ -1,20 +1,5 @@
-# Reddit-Hackernews-ProductHunt Clone on Rails
 
-**[DEMO](https://hackernews-rails-clone.herokuapp.com/)**
-
-![Screenshot](https://cdn.rawgit.com/blairanderson/rails-hackernews-reddit-producthunt-clone/master/public/screenshot.png)
-
-This is the `readme.md` for a Ruby on Rails application that mimics social news link sharing websites like HackerNews, ProductHunt, and Reddit.
-
-Obviously the styling is different but the base functionality exists.
-
-### Why?
-
-Because when i was learning to program, I wanted to play with code that had a familiar model and get some instant gratification.
-
-The problem with learning to code is the learning-curve. Shit is real and painful and i found that the best cure for the pain was cloning an app with features and tweaking until it broke and learning along the way.
-
-I think this is why wordpress is SO popular. Its stupid-easy to fire-up, and changes come with one-click package installs and tiny code changes.
+**[DEMO](https://trnden.com)**
 
 
 
